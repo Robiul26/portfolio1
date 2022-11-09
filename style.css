@@ -436,6 +436,9 @@ header .navbar ul li a:hover {
     html {
         font-size: 50%;
     }
+    .portfolio .box-container .box {
+        height: auto;
+    }
 }
 
 @media (max-width:400px) {
