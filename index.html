@@ -14,36 +14,37 @@
 
 <body>
 
-  <!-- Messenger Chat Plugin Code -->
-  <div id="fb-root"></div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
-  <!-- Your Chat Plugin code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "117892886264383");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "117892886264383");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v15.0'
-      });
-    };
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
 
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- header section starts -->
     <header>
         <div class="user">
@@ -72,13 +73,10 @@
         <h1>I'M <span>Robiul Islam</span></h1>
         <p>Welcome to my personal page that I've design to showcase my skills and expertise that I've accumulated over
             the year.</p>
-       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <a href="#about">
             <button class="btn">about me <i class="fas fa-user"></i></button>
         </a>
-        <iframe style="margin-top: 20px;" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Frobiul26.github.io%2Fportfolio1&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId=494810488006453" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div>
-       </section>
+    </section>
     <!-- Home section ends -->
 
     <!-- About section starts -->
@@ -173,8 +171,8 @@
                 <span>Feb 2020 - July 2021</span>
                 <h3>Web Programmer</h3>
                 <p>
-                   Avanteca Software Ltd,
-                   House-447/A, Road-07, D.O.H.S. Baridhara R/A ,Dhaka-1206
+                    Avanteca Software Ltd,
+                    House-447/A, Road-07, D.O.H.S. Baridhara R/A ,Dhaka-1206
                 </p>
             </div>
             <div class="box">
@@ -325,7 +323,8 @@
                                 class="fas fa-envelope"></i>robiulrobi26@gmail.com</a></h3>
                     <h3><a href="https://www.facebook.com/robiidb" class="text-white" target="_blank"><i
                                 class="fa-brands fa-facebook"></i>robiidb</a></h3>
-                    <h3><a href="https://github.com/robiul26" class="text-white" target="_blank"><i class="fa-brands fa-github"></i>robiul26</a></h3>
+                    <h3><a href="https://github.com/robiul26" class="text-white" target="_blank"><i
+                                class="fa-brands fa-github"></i>robiul26</a></h3>
                     <h3><a href="https://wa.me/01912395149" target="_blank"><i
                                 class="fa-brands fa-whatsapp"></i>+88-019-1239-5149</a></h3>
                     <h3><a href="tel:+8801609071300"><i class="fa-solid fa-phone"></i>+88016-0907-1300</a></h3>
