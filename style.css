@@ -314,6 +314,7 @@ header .navbar ul li a:hover {
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
+    position:relative
 }
 
 .portfolio .box-container img {
@@ -324,6 +325,16 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container img:hover {
     transform: scale(1.2);
+}
+.portfolio .box-container .box:hover .title-container{
+    opacity: 1;
+}
+.title-container{
+    position: absolute; bottom: 0;width: 100%;background-color: black;opacity: .0; 
+}
+.title{
+    color: orange;text-align:center;padding:10px 0;font-weight: bold;text-transform: capitalize;
+    font-size: 20px;
 }
 
 /* Portfolio section ends */
