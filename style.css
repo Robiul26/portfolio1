@@ -333,7 +333,7 @@ header .navbar ul li a:hover {
     position: absolute; bottom: 0;width: 100%;background-color: black;opacity: .0; 
 }
 .title{
-    color: orange;text-align:center;padding:10px 0;font-weight: bold;text-transform: capitalize;
+   color: var(--yellow);text-align:center;padding:10px 0;font-weight: bold;text-transform: capitalize;
     font-size: 20px;
 }
 
