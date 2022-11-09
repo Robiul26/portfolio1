@@ -6,13 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robilul Islam</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <!-- Font awesom -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108478495080532");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- header section starts -->
     <header>
         <div class="user">
@@ -41,10 +72,13 @@
         <h1>I'M <span>Robiul Islam</span></h1>
         <p>Welcome to my personal page that I've design to showcase my skills and expertise that I've accumulated over
             the year.</p>
+       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <a href="#about">
             <button class="btn">about me <i class="fas fa-user"></i></button>
         </a>
-    </section>
+        <iframe style="margin-top: 20px;" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Frobiul26.github.io%2Fportfolio1&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId=494810488006453" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+       </section>
     <!-- Home section ends -->
 
     <!-- About section starts -->
