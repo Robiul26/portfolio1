@@ -327,7 +327,7 @@ header .navbar ul li a:hover {
     transform: scale(1.2);
 }
 .portfolio .box-container .box:hover .title-container{
-    opacity: 1;
+    opacity: .9;
 }
 .title-container{
     position: absolute; bottom: 0;width: 100%;background-color: black;opacity: .0; 
